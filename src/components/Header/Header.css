@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: #344C64;
+    z-index: 99;
+    border-bottom: 2px solid #000000;
+}
+
+.board-logo {
+    justify-content: center;
+    margin-left: 2vw;
+}
+
+.board-logo img {
+    width: 13%;
+}
+
+.search-box {
+    border-radius: 40px;
+}
